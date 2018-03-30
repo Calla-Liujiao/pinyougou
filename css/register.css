@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    font-family: tahoma, arial, "Hiragino Sans GB", "Microsoft Yahei", \5b8b\4f53, sans-serif;
+    line-height: 18px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7kkyc2');
+  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+        url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+        url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    color: #e82633;
+}
+
+em {
+    font-style: normal!important;
+}
+
+
+i {
+    font-style: normal!important;
+}
+
+input,
+button {
+    outline: none;
+    border: 0;
+}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+.clearfix:before,.clearfix:after { 
+  content:"";
+  display:table;  /* 这句话可以出发BFC BFC可以清除浮动,BFC我们后面讲 */
+}
+.clearfix:after {
+ clear:both;
+}
+.clearfix {
+  *zoom:1;
+}
+.w {
+  width: 1200px;
+  margin: auto;
+}
+.header {
+  height: 80px;
+  border-bottom: 2px solid #c81623;
+}
+.logo {
+  float: left;
+  margin-top: 15px;
+}
+.registerarea {
+  height: 520px;
+  border: 1px solid #ccc;
+  margin: 20px 0;
+
+}
+.registerarea h3 {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+}
+.registerarea h3 a {
+  color: #c81623;
+}
+.reg-form {
+  width: 600px;
+  margin: 50px auto 0;
+}
+.reg-form li {
+  margin-top: 20px;
+}
+.reg-form label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+
+}
+.reg-form input {
+  width: 238px;
+  height: 34px;
+  border: 1px solid #ccc;
+}
+.reg-form img {
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-right: 10px;
+}
+.default {
+  color: #ddd;
+}
+.error {
+  color: #c81623;
+}
+.success {
+  color: #40b83f;
+}
+.safe {
+  color: #ccc;
+  margin-left: 160px;
+}
+.safe em {
+  padding: 0 10px;
+  color: #fff;
+  margin-right: 2px;
+}
+.low {
+  background-color: red;
+}
+.mid {
+  background-color: orange;
+}
+.stro {
+  background-color: green;
+}
+.reg-form .agree {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-left: 100px;
+  margin-right: 3px;
+}
+.reg-form li a {
+  color: #93caf0;
+}
+.reg-form li button {
+  width: 200px;
+  height: 34px;
+  line-height: 34px;
+  background-color: #c81623;
+  margin-left: 100px;
+  color: #fff;
+}
+.footer {
+  text-align: center;
+}
+
+.footer li {
+    display: inline-block;
+    line-height: 40px;
+}
+.footer i {
+  margin: 0 10px;
+}
+
